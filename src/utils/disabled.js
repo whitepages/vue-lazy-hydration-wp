@@ -1,5 +1,5 @@
 const isServer = typeof window === 'undefined';
-let isPageLodaded = false;
+let isPageLoaded = false;
 
 if (!isServer) {
   // load event fires when document with all scripts is loaded,
