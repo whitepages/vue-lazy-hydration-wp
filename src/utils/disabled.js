@@ -12,5 +12,5 @@ if (!isServer) {
 export function isHydrationDisabled() {
   // hydration may be disabled because we are in SSR context
   // or page was fully loaded & hydrated, so it's not needed anymore
-  return isServer || isPageLodaded;
+  return isServer || isPageLoaded;
 }
